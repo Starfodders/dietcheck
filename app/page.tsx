@@ -1,5 +1,6 @@
 import 'dotenv/config'
 import Display from './components/Display'
+import Prisma from "../prisma/client"
 
 const page = () => {
 
@@ -45,6 +46,7 @@ const page = () => {
       <Display/>
       <p>What info is needed? Healthy cat diets</p>
       Hello
+      {/* <Prisma/> */}
     </div>
   )
 }
