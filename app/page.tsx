@@ -44,6 +44,7 @@ const page = () => {
       <button>Dog</button>
       <Display/>
       <p>What info is needed? Healthy cat diets</p>
+      Hello
     </div>
   )
 }
